@@ -1,5 +1,4 @@
 .wrap {
-  width: 1600px;
   margin: 0 auto;
 }
 
@@ -148,26 +147,34 @@ input:focus {
   font-size: 14px;
 }
 
+
 /* section */
 
-.sections {
-  width: 1300px;
+.content{
+  max-width: 1900px;
+  min-width: 1400px;
   margin: 0 auto;
-  margin-top: 100px;
+  /* background-color: aqua; */
 }
+
+.sections {
+  display: grid;
+  justify-content: center;
+}
+
+/* footer */
 
 .footer .bottom_bg {
   height: 120px;
   background-color: #e60012;
   margin-top: 80px;
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 1082px;
+  gap: 1020px;
 }
 
-.bottom_bg .bottom_logo {
-  margin-left: 150px;
-}
+
 
 .bottom_bg .gotop {
   width: 30px;

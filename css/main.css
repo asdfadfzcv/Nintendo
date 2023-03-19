@@ -1,7 +1,14 @@
 /* banners */
 
+
+
 .banners {
   z-index: 1;
+  max-width: 1900px;
+}
+
+.banner_big img{
+  width: 100%;
 }
 
 .banners .slick-dots {
@@ -27,6 +34,8 @@
 }
 
 /* section */
+
+
 
 .section1 h1 {
   font-size: 26px;
@@ -72,13 +81,15 @@
 
 .mid_banner {
   margin-top: 70px;
+  margin-bottom: 70px;
 }
 
-/* bottom section */
-.bottom_section {
-  width: 1300px;
-  margin: 0 auto;
+.mid_banner img{
+  width: 100%;
 }
+
+
+
 
 /* bottom banner */
 
@@ -88,8 +99,13 @@
 
 .bottom_section .bottom_banner ul {
   display: flex;
-  gap: 20px;
-  margin-top: 20px;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.bottom_banner ul li img{
+  width: 100%;
 }
 
 .bottom_section h3 {
@@ -102,6 +118,7 @@
 
 .bottom_menu {
   display: flex;
+  justify-content: center;
   margin-top: 70px;
 }
 
@@ -152,6 +169,7 @@
 
 .notice {
   display: flex;
+  justify-content: center;
   margin-top: 80px;
   height: 100px;
   border-top: 1px solid #d6d6d6;
