@@ -2,11 +2,6 @@
 
 .banners {
   z-index: 1;
-  max-width: 1900px;
-}
-
-.banner_big img {
-  width: 100%;
 }
 
 .banners .slick-dots {
@@ -80,8 +75,10 @@
   margin-bottom: 70px;
 }
 
-.mid_banner img {
-  width: 100%;
+/* bottom section */
+.bottom_section {
+  width: 1300px;
+  margin: 0 auto;
 }
 
 /* bottom banner */
@@ -92,13 +89,8 @@
 
 .bottom_section .bottom_banner ul {
   display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin-bottom: 30px;
-}
-
-.bottom_banner ul li img {
-  width: 100%;
+  gap: 20px;
+  margin-top: 20px;
 }
 
 .bottom_section h3 {

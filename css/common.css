@@ -149,9 +149,8 @@ input:focus {
 
 /* section */
 
-.content {
-  max-width: 1900px;
-  min-width: 1400px;
+.sections {
+  width: 1300px;
   margin: 0 auto;
   /* background-color: aqua; */
 }
@@ -170,7 +169,11 @@ input:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1020px;
+  gap: 1082px;
+}
+
+.bottom_bg .bottom_logo {
+  margin-left: 150px;
 }
 
 .bottom_bg .gotop {
