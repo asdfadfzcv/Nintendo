@@ -82,19 +82,19 @@
   margin-top: 70px;
   margin-bottom: 70px;
   text-align: center;
-  /* margin: 0 auto; */
 }
 
 /* bottom section */
 .bottom_section {
-  width: 1300px;
   margin: 0 auto;
 }
 
 /* bottom banner */
 
 .bottom_banner {
+  display: grid;
   margin-top: 120px;
+  justify-content: center;
 }
 
 .bottom_section .bottom_banner ul {
@@ -164,7 +164,8 @@
 
 .notice {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0 300px;
   margin-top: 80px;
   height: 100px;
   border-top: 1px solid #d6d6d6;
@@ -189,8 +190,7 @@
 
 .notice .text_box {
   display: flex;
-  margin-left: 154px;
-  gap: 40px;
+  gap: 200px;
 }
 
 .notice .text_box p:hover {
