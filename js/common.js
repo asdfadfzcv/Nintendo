@@ -11,7 +11,7 @@ $(function () {
     $(".search_box").removeClass("on")
   })
 
-  $(".nav_list").click(function () {
-    $(this).children("ul").toggleClass("on").stop().slideToggle(400)
+  $(".nav").click(function () {
+    $(this).children(".nav_list").toggleClass("on").stop().slideToggle(200)
   })
 })
