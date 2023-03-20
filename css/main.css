@@ -1,7 +1,14 @@
 /* banners */
 
 .banners {
+  max-width: 1900px;
+  min-width: 1400px;
   z-index: 1;
+  margin: 0 auto;
+}
+
+.banners img {
+  width: 100%;
 }
 
 .banners .slick-dots {
@@ -71,8 +78,11 @@
 /* mid banner */
 
 .mid_banner {
+  width: 100%;
   margin-top: 70px;
   margin-bottom: 70px;
+  text-align: center;
+  /* margin: 0 auto; */
 }
 
 /* bottom section */

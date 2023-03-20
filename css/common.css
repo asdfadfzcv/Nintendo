@@ -5,13 +5,20 @@
 /* header */
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1900px;
+  min-width: 1400px;
+  background-color: aquamarine;
   position: relative;
   z-index: 100;
+  margin: 0 auto;
 }
 
 .main_logo {
   display: flex;
   height: 74px;
+  justify-content: center;
 }
 
 .main_logo .menu .nav {
@@ -150,9 +157,7 @@ input:focus {
 /* section */
 
 .sections {
-  width: 1300px;
   margin: 0 auto;
-  /* background-color: aqua; */
 }
 
 .sections {
